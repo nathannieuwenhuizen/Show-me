@@ -47,6 +47,6 @@ public class LocatorNotification : MonoBehaviour
     {
         dotIndex = maxDots;
         StopAllCoroutines();
-        text.text = "Found tree!    ";
+        text.text = "   Found tree!";
     }
 }
