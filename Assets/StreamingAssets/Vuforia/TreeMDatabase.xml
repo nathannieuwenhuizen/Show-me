@@ -2,5 +2,7 @@
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
     <ImageTarget name="treeIcon" size="1.000000 1.000000" />
+    <CylinderTarget name="Tree_cilinder2" sideLength="1.500000"/>
+    <CylinderTarget name="Tree_cilinder" sideLength="1.500000"/>
   </Tracking>
 </QCARConfig>
