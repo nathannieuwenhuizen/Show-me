@@ -65,7 +65,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5f7b2466f559eed41a871758c81f6039, type: 3}
+    m_Font: {fileID: 12800000, guid: 6860fbcadcd012a4484c27bcab21ddc1, type: 3}
     m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 1
@@ -77,7 +77,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'CO2 Save emission
+  m_Text: 'General information
 
     -------------------'
 --- !u!114 &9021103766889902408
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9021103768193347228}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
@@ -199,7 +199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &9021103768407177335
 RectTransform:
   m_ObjectHideFlags: 0
@@ -250,7 +250,7 @@ RectTransform:
   m_GameObject: {fileID: 9021103768795704530}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0033591024, y: 0.0033591022, z: 0.0033591029}
+  m_LocalScale: {x: 0.0048312848, y: 0.0048312843, z: 0.0048312857}
   m_Children:
   - {fileID: 9021103768193347229}
   - {fileID: 9021103768407177335}
@@ -259,7 +259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.01}
+  m_AnchoredPosition: {x: 0, y: 1.0100098}
   m_SizeDelta: {x: 346.0808, y: 200.3049}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &9021103768795704529
@@ -401,19 +401,29 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 638966273075e234eba65ed01ee75a08, type: 3}
+    m_Font: {fileID: 12800000, guid: 6860fbcadcd012a4484c27bcab21ddc1, type: 3}
     m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 2
     m_MaxSize: 200
-    m_Alignment: 4
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 38 kg/y
+  m_Text: 'Name: DR. Oak
+
+    Age: 3 years
+
+    Type: ...
+
+    Likes: Sunlight
+
+    Hates: Everything!
+
+'
 --- !u!114 &9021103768879097663
 MonoBehaviour:
   m_ObjectHideFlags: 0
