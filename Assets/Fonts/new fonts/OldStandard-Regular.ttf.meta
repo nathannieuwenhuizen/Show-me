@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 632a5ed19aee8e944b911886bbf05331
+guid: 6b43748aa75b87e46ad5328c255fdf50
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,14 +8,11 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Raleway
+  fontName: Old Standard TT
   fontNames:
-  - Raleway
+  - Old Standard TT
   fallbackFontReferences:
-  - {fileID: 12800000, guid: 2dfa0e60e72496042a38f3f916af430e, type: 3}
-  - {fileID: 12800000, guid: 5423d962c2e1cb246aa23463163dea96, type: 3}
-  - {fileID: 12800000, guid: 465f7b572ecfc70489ce13dcc67df360, type: 3}
-  - {fileID: 12800000, guid: 19a0474f71a62184daf727969768a164, type: 3}
+  - {fileID: 12800000, guid: 5eb28d033cb76ee459c732ed2d965850, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

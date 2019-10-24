@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 47477f25894f22242bbb127b8a22b7c3
+guid: 6860fbcadcd012a4484c27bcab21ddc1
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: VertigoFLF
+  fontName: Lobster 1.4
   fontNames:
-  - VertigoFLF
+  - Lobster 1.4
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
