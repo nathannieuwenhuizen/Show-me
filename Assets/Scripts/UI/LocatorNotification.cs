@@ -55,6 +55,11 @@ public class LocatorNotification : MonoBehaviour
     }
     public void Found()
     {
+        if (Settings.Vibration)
+        {
+            Handheld.Vibrate();
+        }
+
         dotIndex = maxDots;
         StopAllCoroutines();
 
