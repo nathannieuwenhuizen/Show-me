@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_SimpleDistortion
+  m_Shader: {fileID: -6465566751694194690, guid: a51082ed3db2fd947819de77faa078d3,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_30EEFE19:
+        m_Texture: {fileID: 2800000, guid: 7547e9e693c3b5a4f967fb0f94021179, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_129FD3DF: 0
+    - Vector1_3532E9AF: -0.3
+    - Vector1_3CB5B3AC: 0.1
+    - Vector1_5207D5D9: 0.1
+    - Vector1_56B146D6: -0.5
+    - Vector1_BD7C7443: 2
+    - Vector1_C438DE54: 0
+    - Vector1_CBF96A3F: 5
+    m_Colors:
+    - Color_A0F1DE77: {r: 1.7968831, g: 4.281462, b: 2.8838866, a: 0}
