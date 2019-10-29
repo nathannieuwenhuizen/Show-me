@@ -3,35 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Hologram : MonoBehaviour
+public class Hologram : ARObject
 {
     [SerializeField]
     private GameObject contents;
     [SerializeField]
     private Transform backdrop;
     private Image backdropSpriteRenderer;
+    private ParticleSystem focusParticle;
+
     void Start()
     {
         GameManager.instance.onTargetFound += Animate;
         GameManager.instance.onTargetLost += Disappear;
 
         backdropSpriteRenderer = backdrop.GetComponent<Image>();
+        focusParticle = backdropSpriteRenderer.GetComponent<ParticleSystem>();
     }
-    private void Update()
+    protected override void Focus()
     {
-        float angle = Vector3.Angle(transform.forward, Vector3.forward);
-        if (angle > 90)
-        {
-            ChangeAlpha(0.2f);
-            //backdrop.gameObject.SetActive(false);
-            contents.gameObject.SetActive(false);
-        } else
-        {
-            ChangeAlpha(0.5f);
-            //backdrop.gameObject.SetActive(true);
-            contents.gameObject.SetActive(true);
-        }
+        ChangeAlpha(0.5f);
+        contents.gameObject.SetActive(true);
+        focusParticle.Play();
     }
+    protected override void UnFocus()
+    {
+        ChangeAlpha(0.2f);
+        contents.gameObject.SetActive(false);
+    }
+
     private void ChangeAlpha(float val)
     {
         Color temp = backdropSpriteRenderer.color;

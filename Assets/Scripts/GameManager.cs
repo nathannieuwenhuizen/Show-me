@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private LocatorNotification locater;
 
+    [SerializeField]
+    private RPGSlider rpgSlider;
+
     public static GameManager instance;
     // Start is called before the first frame update
     void Awake()
@@ -22,11 +25,13 @@ public class GameManager : MonoBehaviour
     public void TargetIsFound()
     {
         onTargetFound?.Invoke();
+        rpgSlider.activated = true;
         locater.Found();
     }
     public void TargetIsLost()
     {
         onTargetLost?.Invoke();
+        rpgSlider.activated = false;
         locater.LocateTree();
     }
 
