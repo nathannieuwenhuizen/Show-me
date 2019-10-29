@@ -13,9 +13,14 @@ public class Menu : MonoBehaviour
 
     [SerializeField]
     private Slider soundSlider;
+
+    [SerializeField]
+    private CameraFade cameraFade;
     // Start is called before the first frame update
     void Start()
     {
+        cameraFade.alphaFadeValue = 1;
+        cameraFade.fadingOut = false;
 
         soundSlider.value = Settings.Volume;
         AudioListener.volume = Settings.Volume;
