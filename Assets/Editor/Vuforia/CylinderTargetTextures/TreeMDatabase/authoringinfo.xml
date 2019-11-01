@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VuforiaUnityInfo version="7.0">
     <TargetSet version="5.0" toolVersion="2.8.0">
+        <CylinderTarget name="Tree_cilinder3" version="3.0" targetId="cfb930e1ca0d4cb6bef301c55d123ff0" sideLength="15.000000" topDiameter="22.000000" bottomDiameter="22.000000" sideImage="Tree_cilinder3.Body_scaled.jpg"/>
         <CylinderTarget name="Tree_cilinder2" version="3.0" targetId="6d68e5374e694c51ac741dbc468c8b59" sideLength="1.500000" topDiameter="1.000000" bottomDiameter="1.000000" sideImage="Tree_cilinder2.Body_scaled.jpg"/>
         <CylinderTarget name="Tree_cilinder" version="3.0" targetId="5989da22e79e453ab0494155fc8f8840" sideLength="1.500000" topDiameter="1.000000" bottomDiameter="1.000000" sideImage="Tree_cilinder.Body_scaled.jpg"/>
     </TargetSet>

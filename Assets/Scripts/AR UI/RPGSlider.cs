@@ -12,6 +12,8 @@ public class RPGSlider : ARObject
     [SerializeField]
     private Image valueImage;
     [SerializeField]
+    private Image valueImage2;
+    [SerializeField]
     private Text levelText;
     [SerializeField]
     private Text expText;
@@ -28,14 +30,15 @@ public class RPGSlider : ARObject
     private AudioSource audioS;
 
     //data
-    private float currentValue = 0;
-    private int level = 0;
+    private float currentValue = 45;
+    private int level = 45;
     private bool animating = false;
 
     public bool activated = true;
 
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         lineParticle = lineParticleRect.GetComponent<ParticleSystem>();
         audioS = GetComponent<AudioSource>();
     }
@@ -49,7 +52,7 @@ public class RPGSlider : ARObject
 
         if (activated)
         {
-            AnimateToLevel(3.5f);
+            AnimateToLevel(47.8f);
         }
 
     }
@@ -125,6 +128,7 @@ public class RPGSlider : ARObject
     public void UpdateUI()
     {
         valueImage.fillAmount = CurrentValue % Mathf.Floor(CurrentValue);
+        valueImage2.fillAmount = valueImage.fillAmount;
         lineParticleRect.localPosition = new Vector2(valueImage.rectTransform.rect.x + valueImage.rectTransform.rect.width * valueImage.fillAmount, 0);
         if (Mathf.Floor(CurrentValue) != Level)
         {

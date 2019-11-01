@@ -34,6 +34,11 @@ public class Menu : MonoBehaviour
             Settings.Vibration = vibrationToggle.isOn;
         });
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
     public void ToggleSettingScreen()
     {
         if (settingScreen.activeSelf == true)
